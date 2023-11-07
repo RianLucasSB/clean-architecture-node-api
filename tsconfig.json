@@ -6,7 +6,7 @@
     "allowJs": true,
     "strictNullChecks": true
   },
-  "include": [
-    "./src/"
+  "exclude": [
+    "./src/jest.config.ts"
   ],
 }
