@@ -3,6 +3,10 @@
     "outDir": "./dist",
     "module": "CommonJS",
     "target": "ES2022",
-    "allowJs": true
-  }
+    "allowJs": true,
+    "strictNullChecks": true
+  },
+  "include": [
+    "./src/"
+  ],
 }
